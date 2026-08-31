@@ -1,0 +1,5 @@
+[
+{"project_id":"AANobbMI","slug":"sodium","title":"Sodium","description":"A modern rendering engine and client-side optimization mod for Minecraft.","categories":["fabric","quilt","optimization"],"display_categories":["optimization"],"versions":["1.21.1","1.21","1.20.1"],"downloads":0,"author":"CaffeineMC","date_modified":"2026-01-01T00:00:00Z","icon_url":null},
+{"project_id":"YL57xq9U","slug":"iris","title":"Iris Shaders","description":"Shader support designed to work with modern performance-focused Minecraft setups.","categories":["fabric","quilt","optimization"],"display_categories":["optimization"],"versions":["1.21.1","1.21","1.20.1"],"downloads":0,"author":"IrisShaders","date_modified":"2026-01-01T00:00:00Z","icon_url":null},
+{"project_id":"P7dR8mSH","slug":"fabric-api","title":"Fabric API","description":"Core hooks and libraries used by many Fabric mods.","categories":["fabric","library"],"display_categories":["library"],"versions":["1.21.1","1.21","1.20.1"],"downloads":0,"author":"FabricMC","date_modified":"2026-01-01T00:00:00Z","icon_url":null}
+]
