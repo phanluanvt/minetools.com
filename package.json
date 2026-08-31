@@ -1,11 +1,10 @@
 {
   "name": "minetools-mods",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js && node validate-build.js",
+    "validate": "node validate-build.js"
   },
-  "engines": {
-    "node": ">=18"
-  }
+  "engines": { "node": ">=18" }
 }
