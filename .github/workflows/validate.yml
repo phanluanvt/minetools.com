@@ -1,0 +1,25 @@
+name: Validate MineTools
+
+on:
+  push:
+    branches: [foundation-clean, main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build and validate
+        run: npm run build
+      - name: Check generated site size
+        run: |
+          test -f dist/sitemap.xml
+          test -f dist/data/mods.json
+          echo "Generated files: $(find dist -type f | wc -l)"
+          du -sh dist
